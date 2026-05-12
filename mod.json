@@ -1,0 +1,36 @@
+{
+	"geode": "5.7.1",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "le10x.double_click_confirm",
+	"version": "1.0.0",
+	"name": "Double Click Confirm",
+	"developer": "le10x",
+	"description": "Double click confirm on the pause menu buttons",
+	"repository": "https://github.com/le10x/double_click_confirm",
+	"tags": ["offline", "utility", "interface"],
+	"settings": {
+		"enable-mod": {
+			"name": "Enable Mod",
+			"description": "Enable or disable this mod.",
+			"type": "bool",
+			"default": true
+		},
+		"plat-only": {
+			"name": "Only on plat levels",
+			"description": "Use the mod only on platform levels.",
+			"type": "bool",
+			"default": false
+		},
+		"show-notification": {
+			"name": "Show Notification",
+			"description": "Show double click notification.",
+			"type": "bool",
+			"default": true
+		}
+	}
+}
